@@ -14,7 +14,7 @@ app.use("/api/restaurent",RestaurentRoute);
 
 app.use("/api/food",FoodRoute);
 
-//mongodb connection
+//mongodb connection string
 mongoose
   .connect("mongodb+srv://rishika:12345@cluster0.rantmza.mongodb.net/",
    {
